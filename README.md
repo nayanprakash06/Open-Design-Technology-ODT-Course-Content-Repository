@@ -17,4 +17,4 @@ The repository follows a learn-by-doing philosophy and encourages experimentatio
 
 🎓 Intended Audience
 
-This repository is primarily intended for students enrolled in the Open Design & Technology (ODT) module at BITS Design School.# Open-Design-Technology-ODT-Course-Content-Repository 
+This repository is primarily intended for students enrolled in the Open Design & Technology (ODT) module at BITS Design School.
