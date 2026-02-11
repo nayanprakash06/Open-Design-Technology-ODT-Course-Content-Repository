@@ -11,9 +11,9 @@ Beginner-friendly Python and MicroPython programs used in live demos, labs, and 
 Schematics and wiring diagrams for ESP32-based experiments, sensors, LEDs, and interactive prototypes.
 
 📊 Presentations
-Lecture slides and visual walkthroughs used during classroom sessions.
+Lecture slides used during classroom sessions.
 
-The repository follows a learn-by-doing philosophy and encourages experimentation, debugging, and iterative design — core principles of open design and technology.
+The repository follows a learn-by-doing philosophy and encourages experimentation, debugging, and iterative design : core principles of open design and technology.
 
 🎓 Intended Audience
 
