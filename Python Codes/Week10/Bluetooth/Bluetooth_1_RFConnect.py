@@ -49,8 +49,14 @@ ble.irq(irq)
 
 
 def advertise():
-    ble.config(gap_name="ESP32-Nayan")
-    ble.gap_advertise(100)
+    name = "ESP32-ESP1"
+
+    adv_data = bytearray()
+    adv_data += bytearray((len(name) + 1, 0x09)) + name.encode()
+
+    ble.gap_advertise(100, adv_data)
+
+    print("Advertising as:", name)
 
 
 advertise()
