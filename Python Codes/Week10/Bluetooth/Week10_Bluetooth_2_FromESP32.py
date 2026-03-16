@@ -51,11 +51,15 @@ ble.irq(ble_irq)
 
 # Advertising function
 def advertise():
-    name = "ESP32-Sensor"
-    adv_data = bytearray('\x02\x01\x06', 'utf-8') + bytearray((len(name) + 1, 0x09)) + name.encode()
-    #ble.config(gap_name="ESP32-ODT")
-    ble.gap_advertise(100)
-    print("Advertising started")
+    name = "ESP32-ESP1"
+
+    adv_data = bytearray()
+    adv_data += bytearray((len(name) + 1, 0x09)) + name.encode()
+
+    ble.gap_advertise(100, adv_data)
+
+    print("Advertising as:", name)
+
 
 advertise()
 
