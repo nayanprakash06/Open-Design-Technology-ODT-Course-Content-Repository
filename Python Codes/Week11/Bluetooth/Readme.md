@@ -28,6 +28,6 @@ Right now, each pattern runs only once because of: value = ""
 If you remove this line, the pattern will run continuously 
 until a new value is received from the app. 
 
-💡 **Think of this as designing your own “command system” between the app and ESP32. **
+**Think of this as designing your own “command system” between the app and ESP32**
 
  
