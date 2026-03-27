@@ -1,7 +1,7 @@
 from machine import Pin
 import time
 
-sensor = Pin(27,Pin.IN) #Sensor Connected to Pin22
+sensor = Pin(27,Pin.IN) #Sensor Connected to Pin27
 
 #Initialization Time of 60 seconds
 print("Sensor Initialization")
